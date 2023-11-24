@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+}
+.container{
+    margin: 10px;
+    text-align: center;
+}
+header, footer{
+    background-color: rgb(175, 236, 216);
+    padding: 10px;
+    margin: 1rem auto;
+}
+main{
+    display: flex;
+    gap: 20px;
+}
+h3{
+    align-content: center;
+    position: relative;
+    top: 170px;
+}
+aside{
+    background-color: rgb(173, 216, 173);
+    flex: 1;
+    padding: 15px;
+    gap: 15px;
+    height: 475px;
+    width: 40px;
+}
+article{
+    background-color: blanchedalmond;
+    float: 3;
+    padding: 15px;
+    gap: 15px;
+    height: 475px;
+    width: 1000px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 200px;
+}
+img{
+    width: 30%;
+}

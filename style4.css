@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    background-color: bisque;
+    height: 30vh;
+}
+nav{
+    background-color: pink;
+    width: 15vw;
+    position: absolute;
+    left: 0px;
+    height: 110vh;
+    top: 0px;
+}
+#main{
+    display: flex;
+}
+#main aside{
+    background-color: aqua;
+    height: 50vh;
+    width: 15vw;
+}
+#main article{
+    width: 85vw;
+    text-align: center;
+}
+header, footer{
+    text-align: center;
+}

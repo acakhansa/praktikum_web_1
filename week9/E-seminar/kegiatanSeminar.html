@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kegiatan seminar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- ini buka navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">E-seminar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="register.html">Registrasi</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="formSeminar.html">form</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="kegiatanSeminar.html">kegiatan seminar</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="dataSeminar.html">data peserta seminar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                  <!-- ini tutup navbar -->
+        <!-- tutup breadcrumb -->
+        <!-- buka form -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5" style="border-style: ridge;">
+                    <form>
+                        <p>Tanggal Daftar</p>
+                        <div class="form-group row">
+                            <label for="From" class="col-4 col-form-label" style="border-style: ridge;">From</label>
+                            <div class="col-8">
+                                <input id="From" name="From" type="date" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="To" class="col-4 col-form-label" style="border-style: ridge;">To</label>
+                            <div class="col-8">
+                                <input id="To" name="To" type="date" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-7" style="border-style: ridge;">
+                    <form style="display: flex; padding-left:10vw;">
+                        <div class="form-group" style="margin-right: 3vw; margin-left:2vw">
+                            <label for="Kategori">Jenis Tiket</label>
+                            <div>
+                                <select id="Kategori" name="Kategori" class="custom-select" style="margin-top: 10px;">
+                                    <option value="Mahasiswa">Gold</option>
+                                    <option value="pegawai swasta">Platinum</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Status">D-Day</label>
+                            <div>
+                                <select id="Status" name="Status" class="custom-select" style="margin-top: 10px;">
+                                    <option value="Booking">Hari-1</option>
+                                    <option value="waiting">Hari-2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- tutup form -->
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+
+</html>

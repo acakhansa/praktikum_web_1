@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data peserta seminar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        table {
+          width: 80%;
+          border-collapse: collapse;
+          margin: 20px;
+        }
+    
+        th, td {
+          border: 2px solid #ddd;
+          padding: 10px;
+          text-align: center;
+        }
+    
+        th {
+          background-color: #f2f2f2;
+        }
+        .container {
+            margin-left: 50px;
+           
+        }
+        .src {
+            margin-left: 70px;
+        }
+      </style>
+</head>
+<body>
+    <!-- ini nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">E-seminar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Registrasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formSeminar.html">form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kegiatanSeminar.html">kegiatan seminar</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dataSeminar.html">data peserta seminar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- tutup -->
+    <div class="src">
+        
+        <h2>Data Peserta Administrasi</h2>
+        
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+<div class="container">
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nomor</th>
+        <th>Nama Lengkap</th>
+        <th>Tempat Lahir</th>
+        <th>Tanggal Lahir</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Kategori</th>
+        <th>Status</th>
+        <th>Action</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>1234</td>
+        <td>Adam idris</td>
+        <td>Denpasar</td>
+        <td>2003-11-11</td>
+        <td>Laki-Laki</td>
+        <td>adam.idris@gmail.com</td>
+        <td>Gold</td>
+        <td>Hari-1</td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>4567</td>
+        <td>Hawa</td>
+        <td>Depok</td>
+        <td>2002-09-01</td>
+        <td>Perempuan</td>
+        <td>hawa@gmail.com</td>
+        <td>Platinum</td>
+        <td>Hari-2</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>7891</td>
+        <td>Nuh Hud</td>
+        <td>Bogor</td>
+        <td>2001-10-02</td>
+        <td>Laki-laki</td>
+        <td>nuh.hud@gmail.com</td>
+        <td>Platinum</td>
+        <td>Hari-1</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>2244</td>
+        <td>Ismail</td>
+        <td>Pekanbaru</td>
+        <td>2001-08-03</td>
+        <td>Laki-laki</td>
+        <td>ismail@gmail.com</td>
+        <td>Gold</td>
+        <td>Hari-1</td>
+        <td></td>
+      </tr>
+      
+      <!-- Tambahkan baris sesuai dengan data peserta yang dimiliki -->
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

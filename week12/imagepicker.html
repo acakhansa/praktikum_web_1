@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+        h3{
+            text-align: center;
+            color: rgb(74, 211, 221);
+        }
+        body{
+            background-color: rgb(222, 238, 232);
+        }
+    </style>
+</head>
+<body>
+    <h3>Ayo Liburan Bersama Keluarga ke DISNEYLAND!</h3>
+    <br>
+    <label for="gambar">Disneyland:</label>
+    <select id="gambar" onchange="image()">
+        <option id="img1">Amerika</option>
+        <option id="img2">China</option>
+        <option id="img3">Hongkong</option>
+        <option id="img2">Japan</option>
+        <option id="img3">Singapore</option>
+    </select>
+    <br>
+
+    <img id="gambarpilih" width="400" style="margin-top: 20px;"/>
+
+    <script>
+        function image() {
+            let pilih = document.getElementById("gambar").value;
+            let gambarpilih = document.getElementById("gambarpilih");
+    
+            if (pilih == "Amerika") {
+                gambarpilih.src = "img/amerika.jpg";
+                alert("DISNEYLAND Anaheim, Amerika");
+            } else if (pilih == "China") {
+                gambarpilih.src = "img/china.jpg";
+                alert("DISNEYLAND Shanghai, China");
+            } else if (pilih == "Hongkong") {
+                gambarpilih.src = "img/hongkong.jpg";
+                alert("DISNEYLAND Hongkong");
+            } else if (pilih == "Japan") {
+                gambarpilih.src = "img/japan.jpg";
+                alert("DISNEYLAND Tokyo, Japan");
+            } else if (pilih == "Singapore") {
+                gambarpilih.src = "img/singapore.jpg"
+                alert("DISNEYLAND Singapore");
+        }
+    }
+    </script>
+</body>
+</html>
